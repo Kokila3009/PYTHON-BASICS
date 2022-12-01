@@ -1,0 +1,27 @@
+def multiplies(items):
+    multi=1
+    for i in items:
+        multi*=i
+    return multi
+def sum(items):
+    sum=0
+    for i in items:
+        sum+=i
+    return sum
+def max(items):
+    max=items[0]
+    for i in items:
+        if i>max:
+            max=i
+    return max
+def min(items):
+    min=items[0]
+    for i in items:
+        if i<min:
+            min=i
+    return min
+
+print(multiplies([2,3,4]))
+print(sum([4,5,6]))
+print(max([23,6,89]))
+print(min([23,6,89]))
